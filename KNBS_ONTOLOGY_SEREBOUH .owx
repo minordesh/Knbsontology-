@@ -1,0 +1,1512 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI">
+    <Prefix name="" IRI="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="Male_STI" IRI="http://www.semanticweb.org/tracykonadu/ontologies/2025/6/Male_STI#"/>
+    <Declaration>
+        <Class IRI="#Antibiotic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Antifungal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Antiparasitic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Antiviral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bacteria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bacterial_STI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diagnostic_Methods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Doctor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fungal_STI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fungi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Immune_Modulators"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infections"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parasite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parasitic_STI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pathogen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sexually_Transmitted_Diseases_Males"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Treatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Viral_STI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Virus"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#accesses"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#causativeagentof"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#causes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDiagnosticMethod"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hascausativeagent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ifpenicillinallergic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDiagnosticMethodfor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#istreatedby"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#treats"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Incubation_period_in_days"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Localization"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTypicalPresentationMale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acyclovir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anti_HCV_antibodies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Antigen_Antibody_Combo_Test"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Azithromycin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Candida_Albicans"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ceftriaxone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chancroid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chlamydia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chlamydia_trachomatis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ciprofloxacin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Clinical_Diagnosis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Clotrimazole"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cotrim"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Culture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Doxycycline"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dr_Böhler"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ELISA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Emtricitabine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Erythromycin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fluconazole"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Genital_Herpes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Genital_Warts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gonorrhea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GramStain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HBsAg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HIV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Haemophilus_ducreyi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hepatitis_B"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hepatitis_B_Virus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hepatitis_C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hepatitis_C_Virus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Herpes_Simplex_Virus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Human_Immunodeficiency_Virus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Human_Papillomavirus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ivermectin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Malathion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Male_Yeast_Infection"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Metronidazole"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moxifloxacin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mycoplasma_Genitalium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mycoplasma_genitalium_bacteria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Neisseria_gonorrhae"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nucleic_Acid_Amplification_Test"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PCR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pegylated_Inteferon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Penicillin_G"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Permethrin1percent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Permethrin5percent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Podophyllotoxin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pthirus_pubis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pubic_Lice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RT_PCR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sacropetes_Scabiei"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Scabies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Serology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SkinScraping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sofosbuvir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Syphilis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tenofovir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Treponema_Pallidum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Trichomonas_vaginalis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Trichomoniasis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Veneral_Disease_Research_Laboratory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VisualInspection"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WetMount"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Antibiotic"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Treatment"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#treats"/>
+                <Class IRI="#Bacterial_STI"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Antifungal"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Treatment"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#treats"/>
+                <Class IRI="#Fungal_STI"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Antiparasitic"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Treatment"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#treats"/>
+                <Class IRI="#Parasitic_STI"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Antiviral"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Treatment"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#treats"/>
+                <Class IRI="#Virus"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Bacteria"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causativeagentof"/>
+            <Class IRI="#Bacterial_STI"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Bacterial_STI"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Infections"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hascausativeagent"/>
+                <Class IRI="#Bacteria"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Fungal_STI"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Infections"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hascausativeagent"/>
+                <Class IRI="#Fungi"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Fungi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causativeagentof"/>
+            <Class IRI="#Fungal_STI"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Parasite"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causativeagentof"/>
+            <Class IRI="#Parasitic_STI"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Parasitic_STI"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Infections"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hascausativeagent"/>
+                <Class IRI="#Parasite"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Viral_STI"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Infections"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hascausativeagent"/>
+                <Class IRI="#Virus"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Virus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causativeagentof"/>
+            <Class IRI="#Viral_STI"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Antibiotic"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Antifungal"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Antiparasitic"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Antiviral"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bacteria"/>
+        <Class IRI="#Pathogen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bacterial_STI"/>
+        <Class IRI="#Infections"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Doctor"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fungal_STI"/>
+        <Class IRI="#Infections"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fungi"/>
+        <Class IRI="#Pathogen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Immune_Modulators"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infections"/>
+        <Class IRI="#Sexually_Transmitted_Diseases_Males"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parasite"/>
+        <Class IRI="#Pathogen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parasitic_STI"/>
+        <Class IRI="#Infections"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Viral_STI"/>
+        <Class IRI="#Infections"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Virus"/>
+        <Class IRI="#Pathogen"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Antiviral"/>
+        <NamedIndividual IRI="#Acyclovir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diagnostic_Methods"/>
+        <NamedIndividual IRI="#Anti_HCV_antibodies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antibiotic"/>
+        <NamedIndividual IRI="#Azithromycin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fungi"/>
+        <NamedIndividual IRI="#Candida_Albicans"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antibiotic"/>
+        <NamedIndividual IRI="#Ceftriaxone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bacterial_STI"/>
+        <NamedIndividual IRI="#Chancroid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bacterial_STI"/>
+        <NamedIndividual IRI="#Chlamydia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bacteria"/>
+        <NamedIndividual IRI="#Chlamydia_trachomatis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antibiotic"/>
+        <NamedIndividual IRI="#Ciprofloxacin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diagnostic_Methods"/>
+        <NamedIndividual IRI="#Clinical_Diagnosis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antifungal"/>
+        <NamedIndividual IRI="#Clotrimazole"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antibiotic"/>
+        <NamedIndividual IRI="#Cotrim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diagnostic_Methods"/>
+        <NamedIndividual IRI="#Culture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antibiotic"/>
+        <NamedIndividual IRI="#Doxycycline"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Doctor"/>
+        <NamedIndividual IRI="#Dr_Böhler"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diagnostic_Methods"/>
+        <NamedIndividual IRI="#ELISA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antiviral"/>
+        <NamedIndividual IRI="#Emtricitabine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antibiotic"/>
+        <NamedIndividual IRI="#Erythromycin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antifungal"/>
+        <NamedIndividual IRI="#Fluconazole"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Viral_STI"/>
+        <NamedIndividual IRI="#Genital_Herpes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Viral_STI"/>
+        <NamedIndividual IRI="#Genital_Warts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bacterial_STI"/>
+        <NamedIndividual IRI="#Gonorrhea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diagnostic_Methods"/>
+        <NamedIndividual IRI="#GramStain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diagnostic_Methods"/>
+        <NamedIndividual IRI="#HBsAg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Viral_STI"/>
+        <NamedIndividual IRI="#HIV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bacteria"/>
+        <NamedIndividual IRI="#Haemophilus_ducreyi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Viral_STI"/>
+        <NamedIndividual IRI="#Hepatitis_B"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Virus"/>
+        <NamedIndividual IRI="#Hepatitis_B_Virus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Viral_STI"/>
+        <NamedIndividual IRI="#Hepatitis_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Virus"/>
+        <NamedIndividual IRI="#Hepatitis_C_Virus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Virus"/>
+        <NamedIndividual IRI="#Herpes_Simplex_Virus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Virus"/>
+        <NamedIndividual IRI="#Human_Immunodeficiency_Virus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Virus"/>
+        <NamedIndividual IRI="#Human_Papillomavirus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antiparasitic"/>
+        <NamedIndividual IRI="#Ivermectin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antiparasitic"/>
+        <NamedIndividual IRI="#Malathion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fungal_STI"/>
+        <NamedIndividual IRI="#Male_Yeast_Infection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antibiotic"/>
+        <NamedIndividual IRI="#Metronidazole"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antibiotic"/>
+        <NamedIndividual IRI="#Moxifloxacin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bacterial_STI"/>
+        <NamedIndividual IRI="#Mycoplasma_Genitalium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bacteria"/>
+        <NamedIndividual IRI="#Mycoplasma_genitalium_bacteria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bacteria"/>
+        <NamedIndividual IRI="#Neisseria_gonorrhae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diagnostic_Methods"/>
+        <NamedIndividual IRI="#Nucleic_Acid_Amplification_Test"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diagnostic_Methods"/>
+        <NamedIndividual IRI="#PCR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antiviral"/>
+        <NamedIndividual IRI="#Pegylated_Inteferon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antibiotic"/>
+        <NamedIndividual IRI="#Penicillin_G"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antiparasitic"/>
+        <NamedIndividual IRI="#Permethrin1percent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antiparasitic"/>
+        <NamedIndividual IRI="#Permethrin5percent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Immune_Modulators"/>
+        <NamedIndividual IRI="#Podophyllotoxin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parasite"/>
+        <NamedIndividual IRI="#Pthirus_pubis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parasitic_STI"/>
+        <NamedIndividual IRI="#Pubic_Lice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diagnostic_Methods"/>
+        <NamedIndividual IRI="#RT_PCR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parasite"/>
+        <NamedIndividual IRI="#Sacropetes_Scabiei"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parasitic_STI"/>
+        <NamedIndividual IRI="#Scabies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diagnostic_Methods"/>
+        <NamedIndividual IRI="#Serology"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diagnostic_Methods"/>
+        <NamedIndividual IRI="#SkinScraping"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antiviral"/>
+        <NamedIndividual IRI="#Sofosbuvir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bacterial_STI"/>
+        <NamedIndividual IRI="#Syphilis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antiviral"/>
+        <NamedIndividual IRI="#Tenofovir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bacteria"/>
+        <NamedIndividual IRI="#Treponema_Pallidum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parasite"/>
+        <NamedIndividual IRI="#Trichomonas_vaginalis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Parasitic_STI"/>
+        <NamedIndividual IRI="#Trichomoniasis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diagnostic_Methods"/>
+        <NamedIndividual IRI="#Veneral_Disease_Research_Laboratory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diagnostic_Methods"/>
+        <NamedIndividual IRI="#VisualInspection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diagnostic_Methods"/>
+        <NamedIndividual IRI="#WetMount"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Permethrin1percent"/>
+        <NamedIndividual IRI="#Permethrin5percent"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDiagnosticMethodfor"/>
+        <NamedIndividual IRI="#Anti_HCV_antibodies"/>
+        <NamedIndividual IRI="#Hepatitis_C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDiagnosticMethodfor"/>
+        <NamedIndividual IRI="#Antigen_Antibody_Combo_Test"/>
+        <NamedIndividual IRI="#HIV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#treats"/>
+        <NamedIndividual IRI="#Azithromycin"/>
+        <NamedIndividual IRI="#Chlamydia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiagnosticMethod"/>
+        <NamedIndividual IRI="#Chancroid"/>
+        <NamedIndividual IRI="#Clinical_Diagnosis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hascausativeagent"/>
+        <NamedIndividual IRI="#Chancroid"/>
+        <NamedIndividual IRI="#Haemophilus_ducreyi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#istreatedby"/>
+        <NamedIndividual IRI="#Chancroid"/>
+        <NamedIndividual IRI="#Azithromycin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#istreatedby"/>
+        <NamedIndividual IRI="#Chancroid"/>
+        <NamedIndividual IRI="#Ceftriaxone"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiagnosticMethod"/>
+        <NamedIndividual IRI="#Chlamydia"/>
+        <NamedIndividual IRI="#Nucleic_Acid_Amplification_Test"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hascausativeagent"/>
+        <NamedIndividual IRI="#Chlamydia"/>
+        <NamedIndividual IRI="#Chlamydia_trachomatis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#istreatedby"/>
+        <NamedIndividual IRI="#Chlamydia"/>
+        <NamedIndividual IRI="#Azithromycin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#istreatedby"/>
+        <NamedIndividual IRI="#Chlamydia"/>
+        <NamedIndividual IRI="#Doxycycline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDiagnosticMethodfor"/>
+        <NamedIndividual IRI="#Culture"/>
+        <NamedIndividual IRI="#Chancroid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDiagnosticMethodfor"/>
+        <NamedIndividual IRI="#Culture"/>
+        <NamedIndividual IRI="#Gonorrhea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiagnosticMethod"/>
+        <NamedIndividual IRI="#Genital_Herpes"/>
+        <NamedIndividual IRI="#PCR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#istreatedby"/>
+        <NamedIndividual IRI="#Genital_Herpes"/>
+        <NamedIndividual IRI="#Acyclovir"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiagnosticMethod"/>
+        <NamedIndividual IRI="#Genital_Warts"/>
+        <NamedIndividual IRI="#Clinical_Diagnosis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hascausativeagent"/>
+        <NamedIndividual IRI="#Genital_Warts"/>
+        <NamedIndividual IRI="#Human_Papillomavirus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#istreatedby"/>
+        <NamedIndividual IRI="#Genital_Warts"/>
+        <NamedIndividual IRI="#Podophyllotoxin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiagnosticMethod"/>
+        <NamedIndividual IRI="#Gonorrhea"/>
+        <NamedIndividual IRI="#GramStain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiagnosticMethod"/>
+        <NamedIndividual IRI="#Gonorrhea"/>
+        <NamedIndividual IRI="#Nucleic_Acid_Amplification_Test"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hascausativeagent"/>
+        <NamedIndividual IRI="#Gonorrhea"/>
+        <NamedIndividual IRI="#Neisseria_gonorrhae"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#istreatedby"/>
+        <NamedIndividual IRI="#Gonorrhea"/>
+        <NamedIndividual IRI="#Ceftriaxone"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDiagnosticMethodfor"/>
+        <NamedIndividual IRI="#GramStain"/>
+        <NamedIndividual IRI="#Gonorrhea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiagnosticMethod"/>
+        <NamedIndividual IRI="#HIV"/>
+        <NamedIndividual IRI="#ELISA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hascausativeagent"/>
+        <NamedIndividual IRI="#HIV"/>
+        <NamedIndividual IRI="#Human_Immunodeficiency_Virus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#istreatedby"/>
+        <NamedIndividual IRI="#HIV"/>
+        <NamedIndividual IRI="#Emtricitabine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#istreatedby"/>
+        <NamedIndividual IRI="#HIV"/>
+        <NamedIndividual IRI="#Tenofovir"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiagnosticMethod"/>
+        <NamedIndividual IRI="#Hepatitis_B"/>
+        <NamedIndividual IRI="#HBsAg"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hascausativeagent"/>
+        <NamedIndividual IRI="#Hepatitis_B"/>
+        <NamedIndividual IRI="#Hepatitis_B_Virus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#istreatedby"/>
+        <NamedIndividual IRI="#Hepatitis_B"/>
+        <NamedIndividual IRI="#Pegylated_Inteferon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#istreatedby"/>
+        <NamedIndividual IRI="#Hepatitis_B"/>
+        <NamedIndividual IRI="#Tenofovir"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiagnosticMethod"/>
+        <NamedIndividual IRI="#Hepatitis_C"/>
+        <NamedIndividual IRI="#Anti_HCV_antibodies"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hascausativeagent"/>
+        <NamedIndividual IRI="#Hepatitis_C"/>
+        <NamedIndividual IRI="#Hepatitis_C_Virus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#istreatedby"/>
+        <NamedIndividual IRI="#Hepatitis_C"/>
+        <NamedIndividual IRI="#Sofosbuvir"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#causativeagentof"/>
+        <NamedIndividual IRI="#Herpes_Simplex_Virus"/>
+        <NamedIndividual IRI="#Genital_Herpes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiagnosticMethod"/>
+        <NamedIndividual IRI="#Male_Yeast_Infection"/>
+        <NamedIndividual IRI="#Clinical_Diagnosis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hascausativeagent"/>
+        <NamedIndividual IRI="#Male_Yeast_Infection"/>
+        <NamedIndividual IRI="#Candida_Albicans"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#istreatedby"/>
+        <NamedIndividual IRI="#Male_Yeast_Infection"/>
+        <NamedIndividual IRI="#Clotrimazole"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiagnosticMethod"/>
+        <NamedIndividual IRI="#Mycoplasma_Genitalium"/>
+        <NamedIndividual IRI="#Nucleic_Acid_Amplification_Test"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hascausativeagent"/>
+        <NamedIndividual IRI="#Mycoplasma_Genitalium"/>
+        <NamedIndividual IRI="#Mycoplasma_genitalium_bacteria"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#istreatedby"/>
+        <NamedIndividual IRI="#Mycoplasma_Genitalium"/>
+        <NamedIndividual IRI="#Doxycycline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#istreatedby"/>
+        <NamedIndividual IRI="#Mycoplasma_Genitalium"/>
+        <NamedIndividual IRI="#Moxifloxacin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiagnosticMethod"/>
+        <NamedIndividual IRI="#Pubic_Lice"/>
+        <NamedIndividual IRI="#VisualInspection"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hascausativeagent"/>
+        <NamedIndividual IRI="#Pubic_Lice"/>
+        <NamedIndividual IRI="#Pthirus_pubis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#istreatedby"/>
+        <NamedIndividual IRI="#Pubic_Lice"/>
+        <NamedIndividual IRI="#Malathion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#istreatedby"/>
+        <NamedIndividual IRI="#Pubic_Lice"/>
+        <NamedIndividual IRI="#Permethrin1percent"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDiagnosticMethodfor"/>
+        <NamedIndividual IRI="#RT_PCR"/>
+        <NamedIndividual IRI="#HIV"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiagnosticMethod"/>
+        <NamedIndividual IRI="#Scabies"/>
+        <NamedIndividual IRI="#SkinScraping"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiagnosticMethod"/>
+        <NamedIndividual IRI="#Scabies"/>
+        <NamedIndividual IRI="#VisualInspection"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hascausativeagent"/>
+        <NamedIndividual IRI="#Scabies"/>
+        <NamedIndividual IRI="#Sacropetes_Scabiei"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#istreatedby"/>
+        <NamedIndividual IRI="#Scabies"/>
+        <NamedIndividual IRI="#Ivermectin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#istreatedby"/>
+        <NamedIndividual IRI="#Scabies"/>
+        <NamedIndividual IRI="#Permethrin5percent"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDiagnosticMethodfor"/>
+        <NamedIndividual IRI="#Serology"/>
+        <NamedIndividual IRI="#Hepatitis_B"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDiagnosticMethodfor"/>
+        <NamedIndividual IRI="#Serology"/>
+        <NamedIndividual IRI="#Hepatitis_C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDiagnosticMethodfor"/>
+        <NamedIndividual IRI="#Serology"/>
+        <NamedIndividual IRI="#Syphilis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiagnosticMethod"/>
+        <NamedIndividual IRI="#Syphilis"/>
+        <NamedIndividual IRI="#Veneral_Disease_Research_Laboratory"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hascausativeagent"/>
+        <NamedIndividual IRI="#Syphilis"/>
+        <NamedIndividual IRI="#Treponema_Pallidum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#istreatedby"/>
+        <NamedIndividual IRI="#Syphilis"/>
+        <NamedIndividual IRI="#Penicillin_G"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiagnosticMethod"/>
+        <NamedIndividual IRI="#Trichomoniasis"/>
+        <NamedIndividual IRI="#Nucleic_Acid_Amplification_Test"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDiagnosticMethod"/>
+        <NamedIndividual IRI="#Trichomoniasis"/>
+        <NamedIndividual IRI="#WetMount"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hascausativeagent"/>
+        <NamedIndividual IRI="#Trichomoniasis"/>
+        <NamedIndividual IRI="#Trichomonas_vaginalis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#istreatedby"/>
+        <NamedIndividual IRI="#Trichomoniasis"/>
+        <NamedIndividual IRI="#Metronidazole"/>
+    </ObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="#ifpenicillinallergic"/>
+        <NamedIndividual IRI="#Syphilis"/>
+        <NamedIndividual IRI="#Doxycycline"/>
+    </NegativeObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Incubation_period_in_days"/>
+        <NamedIndividual IRI="#Candida_Albicans"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Localization"/>
+        <NamedIndividual IRI="#Chancroid"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTypicalPresentationMale"/>
+        <NamedIndividual IRI="#Chancroid"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Localization"/>
+        <NamedIndividual IRI="#Chlamydia"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTypicalPresentationMale"/>
+        <NamedIndividual IRI="#Chlamydia"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Incubation_period_in_days"/>
+        <NamedIndividual IRI="#Chlamydia_trachomatis"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Localization"/>
+        <NamedIndividual IRI="#Genital_Herpes"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTypicalPresentationMale"/>
+        <NamedIndividual IRI="#Genital_Herpes"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Localization"/>
+        <NamedIndividual IRI="#Genital_Warts"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTypicalPresentationMale"/>
+        <NamedIndividual IRI="#Genital_Warts"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Localization"/>
+        <NamedIndividual IRI="#Gonorrhea"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTypicalPresentationMale"/>
+        <NamedIndividual IRI="#Gonorrhea"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Localization"/>
+        <NamedIndividual IRI="#HIV"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTypicalPresentationMale"/>
+        <NamedIndividual IRI="#HIV"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Incubation_period_in_days"/>
+        <NamedIndividual IRI="#Haemophilus_ducreyi"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Localization"/>
+        <NamedIndividual IRI="#Hepatitis_B"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTypicalPresentationMale"/>
+        <NamedIndividual IRI="#Hepatitis_B"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Incubation_period_in_days"/>
+        <NamedIndividual IRI="#Hepatitis_B_Virus"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Localization"/>
+        <NamedIndividual IRI="#Hepatitis_C"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTypicalPresentationMale"/>
+        <NamedIndividual IRI="#Hepatitis_C"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Incubation_period_in_days"/>
+        <NamedIndividual IRI="#Hepatitis_C_Virus"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Incubation_period_in_days"/>
+        <NamedIndividual IRI="#Herpes_Simplex_Virus"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Incubation_period_in_days"/>
+        <NamedIndividual IRI="#Human_Immunodeficiency_Virus"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Incubation_period_in_days"/>
+        <NamedIndividual IRI="#Human_Papillomavirus"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Localization"/>
+        <NamedIndividual IRI="#Male_Yeast_Infection"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTypicalPresentationMale"/>
+        <NamedIndividual IRI="#Male_Yeast_Infection"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Localization"/>
+        <NamedIndividual IRI="#Mycoplasma_Genitalium"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTypicalPresentationMale"/>
+        <NamedIndividual IRI="#Mycoplasma_Genitalium"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Incubation_period_in_days"/>
+        <NamedIndividual IRI="#Mycoplasma_genitalium_bacteria"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Incubation_period_in_days"/>
+        <NamedIndividual IRI="#Neisseria_gonorrhae"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Incubation_period_in_days"/>
+        <NamedIndividual IRI="#Pthirus_pubis"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Localization"/>
+        <NamedIndividual IRI="#Pubic_Lice"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTypicalPresentationMale"/>
+        <NamedIndividual IRI="#Pubic_Lice"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Incubation_period_in_days"/>
+        <NamedIndividual IRI="#Sacropetes_Scabiei"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Localization"/>
+        <NamedIndividual IRI="#Scabies"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTypicalPresentationMale"/>
+        <NamedIndividual IRI="#Scabies"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Localization"/>
+        <NamedIndividual IRI="#Syphilis"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTypicalPresentationMale"/>
+        <NamedIndividual IRI="#Syphilis"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Incubation_period_in_days"/>
+        <NamedIndividual IRI="#Treponema_Pallidum"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Incubation_period_in_days"/>
+        <NamedIndividual IRI="#Trichomonas_vaginalis"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Localization"/>
+        <NamedIndividual IRI="#Trichomoniasis"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTypicalPresentationMale"/>
+        <NamedIndividual IRI="#Trichomoniasis"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="#hasDiagnosticMethod"/>
+        <ObjectInverseOf>
+            <ObjectProperty IRI="#isDiagnosticMethodfor"/>
+        </ObjectInverseOf>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="#istreatedby"/>
+        <ObjectInverseOf>
+            <ObjectProperty IRI="#treats"/>
+        </ObjectInverseOf>
+    </EquivalentObjectProperties>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#accesses"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#causativeagentof"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#causes"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hascausativeagent"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ifpenicillinallergic"/>
+        <ObjectProperty IRI="#istreatedby"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isDiagnosticMethodfor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#istreatedby"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#treats"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#causativeagentof"/>
+        <ObjectProperty IRI="#hascausativeagent"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasDiagnosticMethod"/>
+        <ObjectProperty IRI="#isDiagnosticMethodfor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#istreatedby"/>
+        <ObjectProperty IRI="#treats"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#accesses"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#causes"/>
+        <Class IRI="#Pathogen"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hascausativeagent"/>
+        <Class IRI="#Pathogen"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#istreatedby"/>
+        <Class IRI="#Sexually_Transmitted_Diseases_Males"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#treats"/>
+        <Class IRI="#Infections"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#accesses"/>
+        <Class IRI="#Diagnostic_Methods"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#causes"/>
+        <Class IRI="#Infections"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDiagnosticMethod"/>
+        <Class IRI="#Diagnostic_Methods"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hascausativeagent"/>
+        <Class IRI="#Sexually_Transmitted_Diseases_Males"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isDiagnosticMethodfor"/>
+        <Class IRI="#Diagnostic_Methods"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#istreatedby"/>
+        <Class IRI="#Treatment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#treats"/>
+        <Class IRI="#Treatment"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Incubation_period_in_days"/>
+        <Class IRI="#Pathogen"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Localization"/>
+        <Class IRI="#Infections"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTypicalPresentationMale"/>
+        <Class IRI="#Infections"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Incubation_period_in_days"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Localization"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTypicalPresentationMale"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Antibiotic</IRI>
+        <Literal>A drug used to treat bacterial infections</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Antifungal</IRI>
+        <Literal>A drug used to treat fungal infections</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Antiparasitic</IRI>
+        <Literal>A drug used to treat parasitic infections</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Antiviral</IRI>
+        <Literal>A drug used to treat viral infections</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bacterial_STI</IRI>
+        <Literal>STI caused by bacteria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Diagnostic_Methods</IRI>
+        <Literal>Diagnostic Methods for STI&apos;s in Males</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Doctor</IRI>
+        <Literal>A trained person that handles diagnostics and therapy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fungal_STI</IRI>
+        <Literal>STI caused by fungi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Immune_Modulators</IRI>
+        <Literal>A drrug used to treat many infections e.g. Podopyhllotoxin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Incubation_period_in_days</IRI>
+        <Literal>Prodomal period between infection and symptoms manifestation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Infections</IRI>
+        <Literal>Classifications of Infections</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Localization</IRI>
+        <Literal>Which part of the body is the infection localized</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Parasitic_STI</IRI>
+        <Literal>STI caused by parasites</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pathogen</IRI>
+        <Literal>Types of Agents that cause STI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sexually_Transmitted_Diseases_Males</IRI>
+        <Literal>Sexual Transmitted Disease for Males</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Treatment</IRI>
+        <Literal>Medications that treat STI&apos;s</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#User</IRI>
+        <Literal>A person that uses the ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Viral_STI</IRI>
+        <Literal>STI caused by a virus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#accesses</IRI>
+        <Literal>The doctor undertakes the diagnostic process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#hasDiagnosticMethod</IRI>
+        <IRI>#Diagnostic_Methods</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasTypicalPresentationMale</IRI>
+        <Literal>Typical symptoms for each infection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#hascausativeagent</IRI>
+        <IRI>#Pathogen</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#istreatedby</IRI>
+        <IRI>#Treatment</IRI>
+    </AnnotationAssertion>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
+    </AnnotationPropertyDomain>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

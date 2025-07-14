@@ -1,0 +1,1123 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI/"
+     xml:base="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Male_STI="http://www.semanticweb.org/tracykonadu/ontologies/2025/6/Male_STI#"
+     xmlns:Male_STI1="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#isDefinedBy -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#accesses -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#accesses">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#User"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Diagnostic_Methods"/>
+        <rdfs:comment>The doctor undertakes the diagnostic process</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#causativeagentof -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#causativeagentof">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#hascausativeagent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#causes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#causes">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Pathogen"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Infections"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#hasDiagnosticMethod -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#hasDiagnosticMethod">
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#isDiagnosticMethodfor"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#isDiagnosticMethodfor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Diagnostic_Methods"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Diagnostic_Methods"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#hascausativeagent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#hascausativeagent">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Pathogen"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Sexually_Transmitted_Diseases_Males"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Pathogen"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#ifpenicillinallergic -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#ifpenicillinallergic">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#istreatedby"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#isDiagnosticMethodfor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#isDiagnosticMethodfor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Diagnostic_Methods"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#istreatedby -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#istreatedby">
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#treats"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#treats"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Sexually_Transmitted_Diseases_Males"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Treatment"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Treatment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#treats -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#treats">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Infections"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Treatment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Incubation_period_in_days -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Incubation_period_in_days">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Pathogen"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Prodomal period between infection and symptoms manifestation</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Localization -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Localization">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Infections"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Which part of the body is the infection localized</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#hasTypicalPresentationMale -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#hasTypicalPresentationMale">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Infections"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Typical symptoms for each infection</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antibiotic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antibiotic">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Treatment"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#treats"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Bacterial_STI"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Treatment"/>
+        <rdfs:comment>A drug used to treat bacterial infections</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antifungal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antifungal">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Treatment"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#treats"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Fungal_STI"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Treatment"/>
+        <rdfs:comment>A drug used to treat fungal infections</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antiparasitic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antiparasitic">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Treatment"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#treats"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Parasitic_STI"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Treatment"/>
+        <rdfs:comment>A drug used to treat parasitic infections</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antiviral -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antiviral">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Treatment"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#treats"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Virus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Treatment"/>
+        <rdfs:comment>A drug used to treat viral infections</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Bacteria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Bacteria">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#causativeagentof"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Bacterial_STI"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Pathogen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Bacterial_STI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Bacterial_STI">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Infections"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#hascausativeagent"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Bacteria"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Infections"/>
+        <rdfs:comment>STI caused by bacteria</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Diagnostic_Methods -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Diagnostic_Methods">
+        <rdfs:comment>Diagnostic Methods for STI&apos;s in Males</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Doctor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Doctor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#User"/>
+        <rdfs:comment>A trained person that handles diagnostics and therapy</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Fungal_STI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Fungal_STI">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Infections"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#hascausativeagent"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Fungi"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Infections"/>
+        <rdfs:comment>STI caused by fungi</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Fungi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Fungi">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#causativeagentof"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Fungal_STI"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Pathogen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Immune_Modulators -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Immune_Modulators">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Treatment"/>
+        <rdfs:comment>A drrug used to treat many infections e.g. Podopyhllotoxin</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Infections -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Infections">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Sexually_Transmitted_Diseases_Males"/>
+        <rdfs:comment>Classifications of Infections</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Parasite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Parasite">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#causativeagentof"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Parasitic_STI"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Pathogen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Parasitic_STI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Parasitic_STI">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Infections"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#hascausativeagent"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Parasite"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Infections"/>
+        <rdfs:comment>STI caused by parasites</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Pathogen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Pathogen">
+        <rdfs:comment>Types of Agents that cause STI</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Sexually_Transmitted_Diseases_Males -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Sexually_Transmitted_Diseases_Males">
+        <rdfs:comment>Sexual Transmitted Disease for Males</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Treatment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Treatment">
+        <rdfs:comment>Medications that treat STI&apos;s</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#User -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#User">
+        <rdfs:comment>A person that uses the ontology</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Viral_STI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Viral_STI">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Infections"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#hascausativeagent"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Virus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Infections"/>
+        <rdfs:comment>STI caused by a virus</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Virus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Virus">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#causativeagentof"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Viral_STI"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Pathogen"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Acyclovir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Acyclovir">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antiviral"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Anti_HCV_antibodies -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Anti_HCV_antibodies">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Diagnostic_Methods"/>
+        <Male_STI1:isDiagnosticMethodfor rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Hepatitis_C"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antigen_Antibody_Combo_Test -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antigen_Antibody_Combo_Test">
+        <Male_STI1:isDiagnosticMethodfor rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#HIV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Azithromycin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Azithromycin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antibiotic"/>
+        <Male_STI1:treats rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Chlamydia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Candida_Albicans -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Candida_Albicans">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Fungi"/>
+        <Male_STI1:Incubation_period_in_days></Male_STI1:Incubation_period_in_days>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Ceftriaxone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Ceftriaxone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antibiotic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Chancroid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Chancroid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Bacterial_STI"/>
+        <Male_STI1:hasDiagnosticMethod rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Clinical_Diagnosis"/>
+        <Male_STI1:hascausativeagent rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Haemophilus_ducreyi"/>
+        <Male_STI1:istreatedby rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Azithromycin"/>
+        <Male_STI1:istreatedby rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Ceftriaxone"/>
+        <Male_STI1:Localization></Male_STI1:Localization>
+        <Male_STI1:hasTypicalPresentationMale></Male_STI1:hasTypicalPresentationMale>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Chlamydia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Chlamydia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Bacterial_STI"/>
+        <Male_STI1:hasDiagnosticMethod rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Nucleic_Acid_Amplification_Test"/>
+        <Male_STI1:hascausativeagent rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Chlamydia_trachomatis"/>
+        <Male_STI1:istreatedby rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Azithromycin"/>
+        <Male_STI1:istreatedby rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Doxycycline"/>
+        <Male_STI1:Localization></Male_STI1:Localization>
+        <Male_STI1:hasTypicalPresentationMale></Male_STI1:hasTypicalPresentationMale>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Chlamydia_trachomatis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Chlamydia_trachomatis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Bacteria"/>
+        <Male_STI1:Incubation_period_in_days></Male_STI1:Incubation_period_in_days>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Ciprofloxacin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Ciprofloxacin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antibiotic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Clinical_Diagnosis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Clinical_Diagnosis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Diagnostic_Methods"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Clotrimazole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Clotrimazole">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antifungal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Cotrim -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Cotrim">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antibiotic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Culture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Culture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Diagnostic_Methods"/>
+        <Male_STI1:isDiagnosticMethodfor rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Chancroid"/>
+        <Male_STI1:isDiagnosticMethodfor rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Gonorrhea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Doxycycline -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Doxycycline">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antibiotic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Dr_Böhler -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Dr_Böhler">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Doctor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#ELISA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#ELISA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Diagnostic_Methods"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Emtricitabine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Emtricitabine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antiviral"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Erythromycin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Erythromycin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antibiotic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Fluconazole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Fluconazole">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antifungal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Genital_Herpes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Genital_Herpes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Viral_STI"/>
+        <Male_STI1:hasDiagnosticMethod rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#PCR"/>
+        <Male_STI1:istreatedby rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Acyclovir"/>
+        <Male_STI1:Localization></Male_STI1:Localization>
+        <Male_STI1:hasTypicalPresentationMale></Male_STI1:hasTypicalPresentationMale>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Genital_Warts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Genital_Warts">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Viral_STI"/>
+        <Male_STI1:hasDiagnosticMethod rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Clinical_Diagnosis"/>
+        <Male_STI1:hascausativeagent rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Human_Papillomavirus"/>
+        <Male_STI1:istreatedby rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Podophyllotoxin"/>
+        <Male_STI1:Localization></Male_STI1:Localization>
+        <Male_STI1:hasTypicalPresentationMale></Male_STI1:hasTypicalPresentationMale>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Gonorrhea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Gonorrhea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Bacterial_STI"/>
+        <Male_STI1:hasDiagnosticMethod rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#GramStain"/>
+        <Male_STI1:hasDiagnosticMethod rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Nucleic_Acid_Amplification_Test"/>
+        <Male_STI1:hascausativeagent rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Neisseria_gonorrhae"/>
+        <Male_STI1:istreatedby rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Ceftriaxone"/>
+        <Male_STI1:Localization></Male_STI1:Localization>
+        <Male_STI1:hasTypicalPresentationMale></Male_STI1:hasTypicalPresentationMale>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#GramStain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#GramStain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Diagnostic_Methods"/>
+        <Male_STI1:isDiagnosticMethodfor rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Gonorrhea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#HBsAg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#HBsAg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Diagnostic_Methods"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#HIV -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#HIV">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Viral_STI"/>
+        <Male_STI1:hasDiagnosticMethod rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#ELISA"/>
+        <Male_STI1:hascausativeagent rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Human_Immunodeficiency_Virus"/>
+        <Male_STI1:istreatedby rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Emtricitabine"/>
+        <Male_STI1:istreatedby rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Tenofovir"/>
+        <Male_STI1:Localization></Male_STI1:Localization>
+        <Male_STI1:hasTypicalPresentationMale></Male_STI1:hasTypicalPresentationMale>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Haemophilus_ducreyi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Haemophilus_ducreyi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Bacteria"/>
+        <Male_STI1:Incubation_period_in_days></Male_STI1:Incubation_period_in_days>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Hepatitis_B -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Hepatitis_B">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Viral_STI"/>
+        <Male_STI1:hasDiagnosticMethod rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#HBsAg"/>
+        <Male_STI1:hascausativeagent rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Hepatitis_B_Virus"/>
+        <Male_STI1:istreatedby rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Pegylated_Inteferon"/>
+        <Male_STI1:istreatedby rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Tenofovir"/>
+        <Male_STI1:Localization></Male_STI1:Localization>
+        <Male_STI1:hasTypicalPresentationMale></Male_STI1:hasTypicalPresentationMale>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Hepatitis_B_Virus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Hepatitis_B_Virus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Virus"/>
+        <Male_STI1:Incubation_period_in_days></Male_STI1:Incubation_period_in_days>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Hepatitis_C -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Hepatitis_C">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Viral_STI"/>
+        <Male_STI1:hasDiagnosticMethod rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Anti_HCV_antibodies"/>
+        <Male_STI1:hascausativeagent rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Hepatitis_C_Virus"/>
+        <Male_STI1:istreatedby rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Sofosbuvir"/>
+        <Male_STI1:Localization></Male_STI1:Localization>
+        <Male_STI1:hasTypicalPresentationMale></Male_STI1:hasTypicalPresentationMale>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Hepatitis_C_Virus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Hepatitis_C_Virus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Virus"/>
+        <Male_STI1:Incubation_period_in_days></Male_STI1:Incubation_period_in_days>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Herpes_Simplex_Virus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Herpes_Simplex_Virus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Virus"/>
+        <Male_STI1:causativeagentof rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Genital_Herpes"/>
+        <Male_STI1:Incubation_period_in_days></Male_STI1:Incubation_period_in_days>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Human_Immunodeficiency_Virus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Human_Immunodeficiency_Virus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Virus"/>
+        <Male_STI1:Incubation_period_in_days></Male_STI1:Incubation_period_in_days>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Human_Papillomavirus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Human_Papillomavirus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Virus"/>
+        <Male_STI1:Incubation_period_in_days></Male_STI1:Incubation_period_in_days>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Ivermectin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Ivermectin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antiparasitic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Malathion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Malathion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antiparasitic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Male_Yeast_Infection -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Male_Yeast_Infection">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Fungal_STI"/>
+        <Male_STI1:hasDiagnosticMethod rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Clinical_Diagnosis"/>
+        <Male_STI1:hascausativeagent rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Candida_Albicans"/>
+        <Male_STI1:istreatedby rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Clotrimazole"/>
+        <Male_STI1:Localization></Male_STI1:Localization>
+        <Male_STI1:hasTypicalPresentationMale></Male_STI1:hasTypicalPresentationMale>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Metronidazole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Metronidazole">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antibiotic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Moxifloxacin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Moxifloxacin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antibiotic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Mycoplasma_Genitalium -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Mycoplasma_Genitalium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Bacterial_STI"/>
+        <Male_STI1:hasDiagnosticMethod rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Nucleic_Acid_Amplification_Test"/>
+        <Male_STI1:hascausativeagent rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Mycoplasma_genitalium_bacteria"/>
+        <Male_STI1:istreatedby rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Doxycycline"/>
+        <Male_STI1:istreatedby rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Moxifloxacin"/>
+        <Male_STI1:Localization></Male_STI1:Localization>
+        <Male_STI1:hasTypicalPresentationMale></Male_STI1:hasTypicalPresentationMale>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Mycoplasma_genitalium_bacteria -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Mycoplasma_genitalium_bacteria">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Bacteria"/>
+        <Male_STI1:Incubation_period_in_days></Male_STI1:Incubation_period_in_days>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Neisseria_gonorrhae -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Neisseria_gonorrhae">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Bacteria"/>
+        <Male_STI1:Incubation_period_in_days></Male_STI1:Incubation_period_in_days>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Nucleic_Acid_Amplification_Test -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Nucleic_Acid_Amplification_Test">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Diagnostic_Methods"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#PCR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#PCR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Diagnostic_Methods"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Pegylated_Inteferon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Pegylated_Inteferon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antiviral"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Penicillin_G -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Penicillin_G">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antibiotic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Permethrin1percent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Permethrin1percent">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antiparasitic"/>
+        <owl:differentFrom rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Permethrin5percent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Permethrin5percent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Permethrin5percent">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antiparasitic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Podophyllotoxin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Podophyllotoxin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Immune_Modulators"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Pthirus_pubis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Pthirus_pubis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Parasite"/>
+        <Male_STI1:Incubation_period_in_days></Male_STI1:Incubation_period_in_days>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Pubic_Lice -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Pubic_Lice">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Parasitic_STI"/>
+        <Male_STI1:hasDiagnosticMethod rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#VisualInspection"/>
+        <Male_STI1:hascausativeagent rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Pthirus_pubis"/>
+        <Male_STI1:istreatedby rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Malathion"/>
+        <Male_STI1:istreatedby rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Permethrin1percent"/>
+        <Male_STI1:Localization></Male_STI1:Localization>
+        <Male_STI1:hasTypicalPresentationMale></Male_STI1:hasTypicalPresentationMale>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#RT_PCR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#RT_PCR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Diagnostic_Methods"/>
+        <Male_STI1:isDiagnosticMethodfor rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#HIV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Sacropetes_Scabiei -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Sacropetes_Scabiei">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Parasite"/>
+        <Male_STI1:Incubation_period_in_days></Male_STI1:Incubation_period_in_days>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Scabies -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Scabies">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Parasitic_STI"/>
+        <Male_STI1:hasDiagnosticMethod rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#SkinScraping"/>
+        <Male_STI1:hasDiagnosticMethod rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#VisualInspection"/>
+        <Male_STI1:hascausativeagent rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Sacropetes_Scabiei"/>
+        <Male_STI1:istreatedby rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Ivermectin"/>
+        <Male_STI1:istreatedby rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Permethrin5percent"/>
+        <Male_STI1:Localization></Male_STI1:Localization>
+        <Male_STI1:hasTypicalPresentationMale></Male_STI1:hasTypicalPresentationMale>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Serology -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Serology">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Diagnostic_Methods"/>
+        <Male_STI1:isDiagnosticMethodfor rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Hepatitis_B"/>
+        <Male_STI1:isDiagnosticMethodfor rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Hepatitis_C"/>
+        <Male_STI1:isDiagnosticMethodfor rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Syphilis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#SkinScraping -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#SkinScraping">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Diagnostic_Methods"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Sofosbuvir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Sofosbuvir">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antiviral"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Syphilis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Syphilis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Bacterial_STI"/>
+        <Male_STI1:hasDiagnosticMethod rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Veneral_Disease_Research_Laboratory"/>
+        <Male_STI1:hascausativeagent rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Treponema_Pallidum"/>
+        <Male_STI1:istreatedby rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Penicillin_G"/>
+        <Male_STI1:Localization></Male_STI1:Localization>
+        <Male_STI1:hasTypicalPresentationMale></Male_STI1:hasTypicalPresentationMale>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+        <owl:sourceIndividual rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Syphilis"/>
+        <owl:assertionProperty rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#ifpenicillinallergic"/>
+        <owl:targetIndividual rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Doxycycline"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Tenofovir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Tenofovir">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Antiviral"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Treponema_Pallidum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Treponema_Pallidum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Bacteria"/>
+        <Male_STI1:Incubation_period_in_days></Male_STI1:Incubation_period_in_days>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Trichomonas_vaginalis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Trichomonas_vaginalis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Parasite"/>
+        <Male_STI1:Incubation_period_in_days></Male_STI1:Incubation_period_in_days>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Trichomoniasis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Trichomoniasis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Parasitic_STI"/>
+        <Male_STI1:hasDiagnosticMethod rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Nucleic_Acid_Amplification_Test"/>
+        <Male_STI1:hasDiagnosticMethod rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#WetMount"/>
+        <Male_STI1:hascausativeagent rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Trichomonas_vaginalis"/>
+        <Male_STI1:istreatedby rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Metronidazole"/>
+        <Male_STI1:Localization></Male_STI1:Localization>
+        <Male_STI1:hasTypicalPresentationMale></Male_STI1:hasTypicalPresentationMale>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Veneral_Disease_Research_Laboratory -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Veneral_Disease_Research_Laboratory">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Diagnostic_Methods"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#VisualInspection -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#VisualInspection">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Diagnostic_Methods"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#WetMount -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#WetMount">
+        <rdf:type rdf:resource="http://www.semanticweb.org/OrdehyeaSerebouh/ontologies/2025/6/Male_STI#Diagnostic_Methods"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
